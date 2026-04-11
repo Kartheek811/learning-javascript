@@ -73,3 +73,5 @@ for (let index = 0; index < arr.length; index++) {
     console.log(typeof arr[index]+" "+arr[index]);
     
 }
+
+let a = ["Hello",100,1.1,true,'hey'];
