@@ -67,11 +67,47 @@
 // }
 
 //Arrays
-let arr = [10,"helllo",false,3.42,null,'bye'];
+// let arr = [10,"helllo",false,3.42,null,'bye'];
 
-for (let index = 0; index < arr.length; index++) {
-    console.log(typeof arr[index]+" "+arr[index]);
+// for (let index = 0; index < arr.length; index++) {
+//     console.log(typeof arr[index]+" "+arr[index]);
     
-}
+// }
 
 let a = ["Hello",100,1.1,true,'hey'];
+
+console.log(a);
+
+a.push();
+console.log(a);
+
+a.push(12314);
+console.log(a);
+
+a.pop();
+console.log(a);
+
+a.pop(100);
+console.log(a);
+
+a.shift();  
+console.log(a);
+
+a.shift("One");
+console.log(a);
+
+a.unshift();
+console.log(a);
+
+a.unshift("One");
+console.log(a);
+
+
+
+
+
+
+
+
+
+
