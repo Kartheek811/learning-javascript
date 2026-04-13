@@ -152,15 +152,77 @@
     
 // }
 
-function myFun()
-{
-    console.log(-1);
-    return -1;
+// function myFun()
+// {
+//     console.log(-1);
+//     return -1;
     
+// }
+
+// console.log(myFun());
+// console.log(myFun);
+
+// function add(num1, num2)
+// {
+//     return num1 + num2
+// }
+
+// console.log(add(23,32));
+// console.log(add(23,"hello"));
+
+// function add(num1, num2)
+// {
+//     return num1 - num2
+// }
+
+// console.log(add(23,32));
+
+// if you write same function name twice it will execute the latest fun that is delcared in js code
+// to overcome the above lilmitation we use function references
+
+// const myFun = function(num1, num2)
+// {
+//     return num1 + num2;
+// }
+
+// console.log(myFun(1,2));
+
+
+
+function doMath(num1, num2, op){
+switch (op) {
+    case "+":
+        console.log(`Addition of ${num1},${num2}, is ${num1+num2}`);
+        
+        break;
+    case "-":
+        console.log(`Subrtraction of ${num1},${num2}, is ${num1-num2}`);
+        break;
+    case "*":
+        console.log(`Multiplication of ${num1},${num2}, is ${num1*num2}`);
+        break;
+    case "/":
+        console.log(`Division of ${num1},${num2}, is ${num1/num2}`);
+        break;
+    case "%":
+        console.log(`Modulo of ${num1},${num2}, is ${num1%num2}`);
+        break;
+    case "**":
+        console.log(`Power of ${num1},${num2}, is ${num1**num2}`);
+        break;
+        
+    default:
+        break;
+}
 }
 
-console.log(myFun());
-console.log(myFun);
+doMath(20, 10, "%");
+
+
+
+
+
+
 
 
 
