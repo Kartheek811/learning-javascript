@@ -136,11 +136,32 @@
     
 // }
 
-const obj ={
-    id:11,
-    name:"ddjd",
-    loc:"dd"
+// const obj ={
+//     id:11,
+//     name:"ddjd",
+//     loc:"dd"
+// }
+
+// for (const key in obj) {
+//     if (!Object.hasOwn(obj, key)) continue;
+    
+//     const element = obj[key];
+//     console.log(element);
+    
+    
+    
+// }
+
+function myFun()
+{
+    console.log(-1);
+    return -1;
+    
 }
+
+console.log(myFun());
+console.log(myFun);
+
 
 
 
