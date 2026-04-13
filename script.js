@@ -74,33 +74,74 @@
     
 // }
 
-let a = ["Hello",100,1.1,true,'hey'];
+// let a = ["Hello",100,1.1,true,'hey'];
 
-console.log(a);
+// console.log(a);
 
-a.push();
-console.log(a);
+// a.push();
+// console.log(a);
 
-a.push(12314);
-console.log(a);
+// a.push(12314);
+// console.log(a);
 
-a.pop();
-console.log(a);
+// a.pop();
+// console.log(a);
 
-a.pop(100);
-console.log(a);
+// a.pop(100);
+// console.log(a);
 
-a.shift();  
-console.log(a);
+// a.shift();  
+// console.log(a);
 
-a.shift("One");
-console.log(a);
+// a.shift("One");
+// console.log(a);
 
-a.unshift();
-console.log(a);
+// a.unshift();
+// console.log(a);
 
-a.unshift("One");
-console.log(a);
+// a.unshift("One");
+// console.log(a);
+
+
+// const m ={
+//     id :1,
+//     name:"kartheek",
+//     loc:"Hyderbad"
+// }
+// console.log(m);
+
+// console.log(m.loc);
+// let a = [
+//     {
+//         id:1,
+//         name:"Kartheek",
+//         loc:"Hyderabad"
+//     },
+//     {
+//         id:2,
+//         name:"hello",
+//         loc:"Hyd"
+//     },
+// ]
+// console.log(a);
+// console.log(a[0]);
+// console.log(a[0].loc);
+
+//forof - arrays
+//forin - objects
+
+// for (const element of a) {
+   
+//     console.log(element);
+    
+// }
+
+const obj ={
+    id:11,
+    name:"ddjd",
+    loc:"dd"
+}
+
 
 
 
